@@ -1,0 +1,360 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    font-size: large;
+    font-weight: 900;
+    text-align: center;
+    position: sticky;
+    padding: 10px 0px;
+    top: 0;
+    background-color: #1b3058;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.navigation-bar{
+    margin-top: 10px;
+}
+.navigation-bar ul li{
+    display: inline;
+    align-items: center;
+    padding: 0px 30px;
+    
+}
+.navigation-bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    color: white;
+}
+main{
+
+
+}
+main h1{
+    font-weight: 900;
+    text-align: center;
+}
+/* Home Section */
+.banner-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70vh;
+    background-image: url("./school-banner.jpg");
+    background-color: black;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(1,0,0,0.5);
+    background-size: cover;
+    padding-right: 40px; 
+ 
+}
+.banner-content {
+    text-align: right;
+}
+
+.banner-content p {
+    color: #1b3058;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    max-width: 900px;
+}
+
+.banner-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.banner-content button:hover {
+    background-color: #0056b3;
+}
+.event-section, .announcement-section{
+    background-color: rgb(73, 73, 105); 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+    
+}
+.event-section h1, .announcement-section h1{
+   color: rgb(0, 248, 0);
+}
+.event-container, .announcement-container{
+    display: flex;
+    justify-content: center;
+}
+
+.event-content, .announcement-content{
+    width: 30%;
+    margin: 10px 25px;
+}
+.event-content p{
+    color: rgb(216, 216, 17);
+    font-size: large;
+    font-weight: 600;
+    line-height: 25px;
+}
+.announcement-content{
+    padding: 20px 10px;
+    border-radius: 8px;
+    background-color: rgb(148, 148, 48);
+
+}
+.announcement-content h2{
+    color: #065f46;
+}
+.announcement-content h4{
+    color: #1b3058;
+}
+.announcement-content p{
+    color: rgb(31, 29, 29);
+    font-size: large;
+    font-weight: 300;
+    line-height: 25px;
+    
+}
+.announcement-content p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.event-content img{
+    border-radius: 8px;
+}
+/* About Us Page */
+.who-section{
+    background-image: url("./about-background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    background-color: rgba(1,0,0,0.7);
+    padding-top: 30px;
+    
+}
+
+/* Admission Page */
+.admission-section{
+    background-color: rgb(49, 49, 19);
+    padding-top: 30px;
+}
+.admission-section h1{
+    color: yellow;
+}
+.admission-content h4{
+    color: green;
+}
+.who-container, .admission-container, .contact-container{
+    padding: 30px 0px;
+}
+ 
+.who-content h2, .admission-content h2{
+    color: #007BFF;
+    padding-left: 80px;
+}
+.admission-content h4{
+    padding-left: 80px;
+}
+.who-content p, .admission-content p{
+    color: white;
+    width: 80%;
+    padding-left: 80px;
+    line-height: 25px;
+    
+    
+    
+}
+.who-content p, .academic-section p{
+    font-size: large;
+}
+/* Academic Page */
+.academic-section{
+    background-color: rgb(243, 239, 239);
+}
+.academic-section-container, .contact-section{
+   padding-top: 30px;
+   width: 70%;
+   margin: auto;
+}
+
+
+
+.health-sciences{
+    height: 50vh;
+    background-image: url("./health-sciences-background.jpg");
+    background-color: black;
+    background-position: center top;
+    background-blend-mode: darken;
+    background-color: rgba(1,0,0,0.8);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 40px 0px;
+ 
+}
+.heading{
+    border-bottom: 1px gray solid;
+    
+}
+
+.sub-heading, .heading, .health-sciences{
+    text-align: center;
+    padding-top: 30px; 
+}
+.health-sciences, .information-technology, .engineering, .business-management, .leadership-and-education{
+    color: white;
+    line-height: 25px;
+}
+.academic-container h2{
+    padding: 20px 0px;
+    font-weight: 900;
+    color: greenyellow;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+}
+.content h3{
+    color: yellow;
+}
+.content-1{
+    margin: 0px 40px;
+}
+
+.information-technology{
+    height: 50vh;
+    background-image: url("./it.jpeg");
+    background-color: black;
+    background-position: center top;
+    background-blend-mode: darken;
+    background-color: rgba(1,0,0,0.8);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+.engineering{
+    height: 50vh;
+    background-image: url("./engineering.png");
+    background-color: black;
+    background-position: center top;
+    background-blend-mode: darken;
+    background-color: rgba(1,0,0,0.8);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+.business-management{
+    height: 50vh;
+    background-image: url("./accountant.jpg");
+    background-color: black;
+    background-position: center top;
+    background-blend-mode: darken;
+    background-color: rgba(1,0,0,0.8);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+
+.leadership-and-education{
+    height: 50vh;
+    background-image: url("./leader.jpg");
+    background-color: black;
+    background-position: top center;
+    background-blend-mode: darken;
+    background-color: rgba(1,0,0,0.8);
+    background-size: cover;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+
+/* Contact Page */
+.contact-section{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url("./contact-banner.jpeg");
+    background-color: black;
+    background-position:  center center;
+    background-blend-mode: darken;
+    background-color: rgba(1,0,0,0.6);
+    background-size: cover;
+    
+}
+
+.contact-section-container{
+    width: 40%;
+    margin: auto;
+    
+}
+.contact-section-container h1{
+    color: yellow;
+}
+ 
+.contact-container h2{
+    color: green;
+    font-weight: 900;
+}
+ .contact-container p{
+    padding-left: 40px;
+    font-size: large;
+    color: white;
+ }
+ 
+
+footer{
+    background-color: #2d3748;
+    padding: 30px 0px;
+    border-top: 5px solid yellow;
+}
+.footer-container{
+    display: flex;
+    color: white;
+    padding-bottom: 10px;
+    
+}
+.social-media{
+    width: 30%;
+    text-align: center;
+    
+}
+.social-media p{
+    font-weight: bold;
+}
+.social-media ul li{
+    display: inline;
+    padding: 0px 10px;
+    
+}
+.social-media ul li a{
+    color: #007BFF; 
+}
+.social-media ul li a:hover{
+    color: #0056b3;
+}
+
+.motto, .location{
+    width: 30%;
+    margin-left: 35px;
+    
+}
+.location img{
+    border-radius: 5px;
+}
+
+
+

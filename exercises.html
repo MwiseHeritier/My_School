@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.banner {
+  position: relative;
+  background-image: url('your-image.jpg'); /* Replace with real image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Darkens the background */
+  z-index: 1;
+}
+
+.text-box {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 30px 60px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  max-width: 500px;
+  width: 100%;
+}
+
+.text-box h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.text-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-box li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+    </style>
+      
+</head>
+<body>
+    <section class="banner">
+        <div class="overlay"></div>
+        <div class="text-box">
+          <h1>1. Faculty of Health Sciences</h1>
+          <ul>
+            <li>General Medicine</li>
+            <li>Pharmacy</li>
+            <li>Dental Surgery</li>
+            <li>Nursing</li>
+            <li>Public Health & Nutrition</li>
+          </ul>
+        </div>
+      </section>
+</body>
+</html>
+  
